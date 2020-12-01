@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.active{
+  border-bottom: solid forestgreen 2px;
+}
+
+.container-md{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px 30px;
+}

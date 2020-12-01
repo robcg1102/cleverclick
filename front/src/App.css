@@ -1,0 +1,404 @@
+/* #0DB14B */
+/* #0EC755 */
+/* #343A40 */
+.App {
+  text-align: center;
+}
+
+.navbar {
+  border-top: 3px solid #0DB14B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.headSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 603px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home{
+  background-image: url("https://res.cloudinary.com/robcg1102/image/upload/v1606585178/ciisa/01_hpe4um.jpg");
+  background-size: 1500px;
+  margin-bottom: 20px;
+}
+
+.benefits{
+  background-image: url("https://res.cloudinary.com/robcg1102/image/upload/v1606585178/ciisa/02_n3inxb.jpg");
+}
+
+
+.headInfo {
+  width: 60%;
+  text-align: left;
+  color: white;
+  height: 510px;
+}
+
+.headInfoBen{
+  width: 60%;
+  text-align: left;
+  color: white;
+  height: 510px;
+  line-height: 100px;
+}
+
+.green {
+  color: #0DB14B ;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 30.4px;
+  line-height: 45px;
+}
+
+.largeSize {
+  font-size: 33.6px;
+}
+
+.mediumSize {
+  font-size: 22.4px;
+}
+
+.smallSize{
+  font-size: 19.2px;
+  line-height: normal;
+}
+
+.arrowSize{
+  font-size: 50px;
+  top: 30px;
+}
+
+.alignCenter{
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.infoBar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 80px 0 60px 0;
+}
+
+.cardInfo {
+  width: 21%;
+  background-color: #09a19c;
+  background-image: linear-gradient(90deg, #09a19c 0%, #893090 100%);
+  display: flex;
+  align-items: center;
+  color: white;
+  border-radius: 8px;
+  margin: 0 8px;
+  padding: 20px 2.5px 10px 2.5px;
+}
+
+.boxCareer {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin: 60px 0 30px 0;
+}
+
+.cardCareer {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.titleCard {
+  width: 165px;
+}
+
+.cardCareer img{
+  transition: transform 0.2s ease;
+}
+
+.cardCareer img:hover{
+  transform: scale(0.9);
+}
+
+.midd-bar{
+  background-color: #414042;
+  color: white;
+  padding: 40px 0 20px 0;
+  margin: 40px 0 50px 0;
+}
+
+.plans{
+  background-color: #FCFCFC;
+}
+
+.boxPlans{
+  display: flex;
+  justify-content: center;
+}
+
+.cardPlans {
+  background-color: #F0F0F0;
+  width: 20%;
+  border-radius: 6px;
+  box-shadow: 2px 3px 2px 3px rgba(0, 0, 0, 0.1);
+  padding: 10px 8px 50px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:#414042;
+  margin: 0 20px;
+}
+
+.cardPlans img{
+  padding: 30px 0;
+}
+
+.matrContent{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+
+.listUl{
+  text-align: left;
+  list-style: none;
+  line-height: 45px;
+}
+
+.listUl li{
+  color: #414042;
+}
+
+.listUl li::before {
+  content: "\2022";
+  color: #0DB14B;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.headerMatr{
+  padding: 15px 0 60px 0;
+}
+
+.middBarG{
+  background-color: #0DB14B;
+  padding: 30px 0 25px 0;
+  margin: 100px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-light{
+  color: #0DB14B !important;
+  font-weight: bolder;
+}
+
+.infoPlans{
+  color: #414042;
+  padding: 45px 0 10px 0;
+}
+
+.footSection{
+  background-color: #414042;
+  height: 250px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 12.8px;
+}
+
+.footSection a{
+  color: white;
+}
+
+ /* FORM */
+
+.titleForm {
+  line-height: 33.6px;
+  margin: 8px 0 45px 0;
+}
+
+.formUser {
+  width: 360px;
+  height: 650.2 !important;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 3px 2px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  color: #A6A6A6;
+}
+
+.termsncond{
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0 0 0;
+}
+
+.sizeTerms{
+  font-size: 12px;
+  width: 80%;
+  text-align: right;
+  margin: 20px 0;
+}
+
+.btnForm{
+  font-size: 16px !important;
+  border-radius: 2px !important;
+  background-color: #26D36A;
+  border: none;
+  padding: 45px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 230px;
+}
+
+.thankRes{
+  padding-top: 40px;
+}
+
+.myInput{
+  background-color: white !important;
+  margin: 15px 0 !important;
+}
+
+.btn {
+  padding: 35px 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnHome {
+  padding: 16px 60px !important;
+}
+
+.active p{
+  border-bottom: #0DB14B solid 2px !important;
+  padding-bottom: 4px;
+  color: #A6A6A6;
+}
+
+.active p:hover{
+  color: black;
+}
+
+.btnmidd{
+  padding: 16px 80px !important;
+}
+
+.termsAndPrivacity{
+  font-size: 15px !important;
+  text-align: left;
+}
+
+.termsAndPrivacity > h2 h1{
+  font-size: 18px !important;
+}
+.sizeTerms {
+  color: black;
+}
+.sizeTerms a{
+  color: #A6A6A6;
+}
+.thanksA a{
+  text-decoration: none !important;
+}
+
+@media screen and (max-width: 800px){
+  .headSection {
+    flex-direction: column;
+    height: auto;
+    background-size: 150% 150%;
+    background-position: center;
+    padding-bottom: 10px;
+  }
+
+
+  .headSection .btn{
+    width: 100%;
+  }
+  .headInfo{
+    width: 95%;
+    margin-bottom: 80px;
+  }
+
+  .cardInfo{
+    width: 40%;
+    margin-bottom: 20px;
+    height: 150px;
+  }
+
+  .cardCareer {
+    width: 50%;
+  }
+
+  .boxPlans{
+    flex-wrap: wrap;
+  }
+  .cardPlans{
+    width: 43%;
+    margin: 10px 10px;
+    padding-bottom: 5px;
+  }
+  .largeSize{
+    font-size: 22px;
+  }
+
+  .headInfoBen{
+    line-height: 45px;
+    width: 90%;
+    height: auto;
+  }
+
+  .btnHome{
+    margin-top: 15px !important;
+  }
+
+  .brSt{
+    display: none;
+  }
+
+  .footSection section{
+    width: 60%;
+  }
+  
+  .infoBen{
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .headerMatr{
+    font-size: 20px;
+    padding-bottom: 35px;
+  }
+
+  .listUl{
+    font-size: 12px;
+    text-align: left;
+    width: 95%;
+    line-height: 30px;
+  }
+
+}
