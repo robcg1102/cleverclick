@@ -205,7 +205,7 @@ class FormUser extends Component {
                 onChange={this.changeInput}
                 required
               >
-                <option>Elige tu carrera</option>
+                <option value="">Elige tu carrera</option>
                 <option value="Ingeniería en Informática">
                   Ingeniería en Informática
                 </option>
